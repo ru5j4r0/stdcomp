@@ -1,19 +1,29 @@
 {
-  "name": "stdcomp",
-  "version": "1.0.0",
-  "description": "The Web Components framework",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ru5j4r0/stdcomp.git"
-  },
-  "author": "ru5j4r0",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/ru5j4r0/stdcomp/issues"
-  },
-  "homepage": "https://github.com/ru5j4r0/stdcomp#readme"
+	"name": "stdcomp",
+	"version": "1.0.0",
+	"description": "The Web Components framework",
+	"main": "index.js",
+	"scripts": {
+		"format": "prettier --write .",
+		"lint": "xo --fix",
+		"test": "xo && prettier --check .",
+		"ci": "pnpm run format && pnpm run lint && pnpm t"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ru5j4r0/stdcomp.git"
+	},
+	"author": "ru5j4r0",
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/ru5j4r0/stdcomp/issues"
+	},
+	"homepage": "https://github.com/ru5j4r0/stdcomp#readme",
+	"devDependencies": {
+		"@tsconfig/node18-strictest-esm": "^1.0.0",
+		"prettier": "^2.7.1",
+		"typescript": "^4.7.4",
+		"webpack": "^5.74.0",
+		"xo": "^0.51.0"
+	}
 }
