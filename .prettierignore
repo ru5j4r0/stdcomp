@@ -1,6 +1,6 @@
 **/*
-!**/*.md
 !**/*.json
 !**/*.code-workspace
 !**/*.html
 !**/*.css
+!**/*.md

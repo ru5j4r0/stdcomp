@@ -12,11 +12,8 @@
 		"xo.enable": true,
 		"xo.format.enable": true,
 		"xo.overrideSeverity": "error",
-		"xo.validate": ["javascript", "typescript"],
+		"xo.validate": ["typescript"],
 		"prettier.configPath": ".prettierrc.json",
-		"[javascript]": {
-			"editor.defaultFormatter": "samverschueren.linter-xo"
-		},
 		"[typescript]": {
 			"editor.defaultFormatter": "samverschueren.linter-xo"
 		},
