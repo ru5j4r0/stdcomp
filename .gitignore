@@ -1,2 +1,5 @@
+# While developing
+/dist/
+
 /node_modules/
 /dist/tsconfig.tsbuildinfo

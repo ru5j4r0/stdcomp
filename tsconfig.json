@@ -4,6 +4,7 @@
 	"compilerOptions": {
 		"outDir": "dist",
 		"declarationDir": "dist/types",
-		"composite": true
+		"composite": true,
+		"typeRoots": ["node_modules/@types"]
 	}
 }
